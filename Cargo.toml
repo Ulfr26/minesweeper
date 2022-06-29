@@ -1,0 +1,12 @@
+[package]
+name = "minesweeper"
+version = "0.1.0"
+edition = "2021"
+authors = ["Luna Borella <ulfrthewolf@gmail.com>"]
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+bevy = { version = "0.7", features = ["dynamic"] }
+fastrand = "1.7.0"
+itertools = "0.10.3"
